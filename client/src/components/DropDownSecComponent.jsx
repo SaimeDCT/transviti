@@ -5,7 +5,7 @@ import { DownOutlined, UpOutlined } from "@ant-design/icons";
 const { Panel } = Collapse;
 
 export default function DropDownSecComponent() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false)
 
   const toggleCollapse = () => {
     setIsOpen(!isOpen);

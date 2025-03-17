@@ -8,7 +8,7 @@ import FeaturedJobSection from "../../components/FeaturedJobSection";
 const UserProfile = () => {
 
   return (
-    <div className="EnergyCards-parent">
+    <div >
       <NavHeader />
       <section className="flex flex-col lg:flex-row gap-6 px-4 md:px-8 lg:px-12 pt-6">
       {/* Left Side - Profile Card >>>>>>>>> section */}
